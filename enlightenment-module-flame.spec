@@ -6,7 +6,6 @@
 %define		_snap	20060420
 Summary:	Enlightenment DR17 module: %{_module_name}
 Summary(pl):	Modu³ Enlightenmenta DR17: %{_module_name}
-# - confirm BR and Rs
 Name:		enlightenment-module-%{_module_name}
 Version:	0.0.3
 Release:	0.%{_snap}.1
@@ -18,7 +17,6 @@ Source0:	http://sparky.homelinux.org/snaps/enli/e_modules/%{_module_name}-%{_sna
 URL:		http://www.get-e.org/Resources/Modules/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	edje
 BuildRequires:	enlightenmentDR17-devel
 BuildRequires:	libtool
 BuildRequires:	sed >= 4.0
