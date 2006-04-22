@@ -1,7 +1,3 @@
-#
-# TODO:
-# - add pl
-#
 %define		_module_name	flame
 %define		_snap	20060420
 Summary:	Enlightenment DR17 module: %{_module_name}
@@ -24,7 +20,10 @@ Requires:	enlightenmentDR17
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Burn your desktop !
+Burn your desktop!
+
+%description -l pl
+Spal swój pulpit!
 
 %prep
 %setup -q -n %{_module_name}
