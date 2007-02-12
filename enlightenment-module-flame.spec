@@ -1,7 +1,7 @@
 %define		_module_name	flame
 %define		_snap	20060420
 Summary:	Enlightenment DR17 module: %{_module_name}
-Summary(pl):	Modu≥ Enlightenmenta DR17: %{_module_name}
+Summary(pl.UTF-8):   Modu≈Ç Enlightenmenta DR17: %{_module_name}
 Name:		enlightenment-module-%{_module_name}
 Version:	0.0.3
 Release:	0.%{_snap}.1
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Burn your desktop!
 
-%description -l pl
-Spal swÛj pulpit!
+%description -l pl.UTF-8
+Spal sw√≥j pulpit!
 
 %prep
 %setup -q -n %{_module_name}
